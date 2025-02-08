@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { addExpense} from "../redux/slices/expensesSlice";
+import { addExpense} from "./expensesSlice";
 
 //Has form where user can add expenses
 const ExpenseForm = () => {

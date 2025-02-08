@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux';
-import { removeExpense } from '../redux/slices/expensesSlice';
+import { removeExpense } from './expensesSlice';
 
 //Displays list of expenses
 const ExpenseList = () => {
