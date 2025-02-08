@@ -1,17 +1,15 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import LandingPage from "./LandingPage";
 import ExpenseTracker from './ExpenseTracker';
 
 function App() {
   return (
     <Router>
-      <Routes>
-        {/*Landing Page is the default page*/}
-        <Route path='/' element={<LandingPage />} />
-
-        {/*Expense Tracker page*/}
-        <Route path='/tracker' element={<ExpenseTracker />} />
-      </Routes>
+      <div>
+        <Link to="/">Home</Link> <Link to="/tracker">Expense Tracker</Link>
+        <Route exact path= "/" component={LandingPage} />	
+        <Route path="/tracker" component={ExpenseTracker} />
+      </div>
     </Router>
   );
 }
