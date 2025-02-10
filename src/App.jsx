@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LandingPage from "./LandingPage";
 import ExpenseTracker from './ExpenseTracker';
 import Navbar from './Navbar';
+import './App.css';
 
 function App() {
   return (
