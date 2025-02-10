@@ -5,7 +5,7 @@ import Navbar from './Navbar';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/Cashflow-tracker'>
       <div className="app-container">
         <Navbar />
         <div className="app">
