@@ -26,7 +26,7 @@ function LandingPage() {
                             </p>
                             <p className="about-us-content">
                             Our team of experts is dedicated to ensuring that each plant meets our strict standards of quality and care. 
-                            Whether you're a seasoned gardener or just starting your green journey, we're here to support you every step of 
+                            Whether you&apos;re a seasoned gardener or just starting your green journey, we&apos;re here to support you every step of 
                             the way. Feel free to explore our collection, ask questions, and let us help you find the perfect plant for your 
                             home or office.
                             </p>
