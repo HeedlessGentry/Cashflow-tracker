@@ -17,7 +17,7 @@ function LandingPage() {
                         <p>Tracking your income and expenses has never been easier</p>
                         <button className="btn" onClick={handleGetStarted}>Get Started</button>
                     </div>
-                    <div className="aboutus_container">
+                    <div>
                         <div className="about-us-container">
                             <p className="about-us-content">
                             At Paradise Nursery, we are passionate about bringing nature closer to you. Our mission is to provide a wide range of 

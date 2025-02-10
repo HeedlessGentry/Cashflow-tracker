@@ -1,14 +1,19 @@
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import LandingPage from "./LandingPage";
 import ExpenseTracker from './ExpenseTracker';
 
 function App() {
   return (
     <Router>
-      <div>
-        <Link to="/">Home</Link> <Link to="/tracker">Expense Tracker</Link>
-        <Route exact path= "/" component={LandingPage} />	
-        <Route path="/tracker" component={ExpenseTracker} />
+      <div className="content">
+        <Switch>
+          <Route exact path="/">
+          <LandingPage />
+          </Route>
+          <Route path="/tracker">
+          <ExpenseTracker />
+          </Route>
+        </Switch>
       </div>
     </Router>
   );
